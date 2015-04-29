@@ -1,0 +1,231 @@
+body, div, p, input, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../img/bg.jpg") repeat;
+    font-family:"微软雅黑", arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/*---------- Contents ------------*/
+#contents {
+    margin: 0 50px;
+}
+
+/*---------- Search Bar ----------*/
+#search-bar {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-width: 600px;
+    min-width: 520px;
+    min-height: 90px;
+    padding: 0 10px;
+    margin: 20px 0 0 0;
+    background-color: #cfcfcf;
+    border: 1px solid gray;
+}
+
+/*---------- Search Type ----------*/
+#search-type {
+    overflow: aoto;
+    border: none;
+    float: left;
+    font-size: 13px;
+    width: 100%;
+    padding: 9px 0 0 0;
+}
+
+#search-type-name {
+    float: left;
+    width: 70px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 0 7px 0;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+#search-type-name:hover {
+    color: white;
+    background-color: gray;
+    box-shadow: 1px 1px 0 0 white;
+}
+
+#search-type-list {
+    padding: 0 0 0 72px;
+}
+
+#search-type ul li {
+    float: left;
+    cursor: pointer;
+    padding: 7px 12px 6px 12px;
+    margin: 0 0 5px 5px;
+    background-color: #f3f3f3;
+    border: 1px solid gray;
+}
+
+#search-type ul li:hover {
+    color: white;
+    background-color: gray;
+    box-shadow: 1px 1px 0 0 white;
+}
+
+/*---------- Search Input ----------*/
+#search-input {
+    float: left;
+    max-width: 80%;
+    min-width: 80%;
+    height: 18px;
+    margin: 0 5px 0 5px;
+    padding: 6px 10px;
+    outline: none;
+    font-size: 14px;
+    border: 1px solid gray;
+    background-color: #cfcfcf;
+}
+
+#search-input:focus {
+    background-color: #ffffff;
+}
+
+/*---------- View On GitHub ----------*/
+#viewgithub {
+    float: left;
+    cursor: pointer;
+    width: 70px;
+    height: 18px;
+    padding: 6px 0px;
+    background-color: #cfcfcf;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid gray;
+}
+
+#viewgithub:hover {
+    color: white;
+    background-color: gray;
+    box-shadow: 1px 1px 0 0 white;
+}
+
+/*---------- Search Button ----------*/
+#search-button {
+    clear: left;
+    float: left;
+    margin-left: 77px;
+    padding: 8px 0 8px 0;
+}
+
+#search-button ul li {
+    float: left;
+    border: none;
+    font-size: 12px;
+    margin: 0 3px 3px 0;
+    padding: 6px 12px;
+    background: #cfcfcf;
+    border: 1px solid gray;
+}
+
+#search-button ul li:hover {
+    color: white;
+    background: gray;
+    cursor: pointer;
+    box-shadow: 1px 1px 0 0 white;
+}
+
+/*---------- Start Page ----------*/
+#start {
+    float: left;
+    margin: 30px 0;
+}
+
+/*---------- Tabs ----------*/
+#tabs ul li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 5px 5px 0;
+    text-align: center;
+    background-color: #cfcfcf;
+    border: 1px solid gray;
+    padding: 0 15px;
+    float: left;
+}
+
+#tabs ul li:hover {
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+
+#tabs ul li.down {
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+
+/*---------- Pages ----------*/
+div.page {
+    float: left;
+}
+
+div.page ul {
+    float: left;
+    clear: left;
+    overflow: hidden;
+    max-width: 520px;
+    min-width: 440px;
+    height: 40px;
+    margin-bottom: 5px;
+    padding: 0 10px 0 90px;
+    background: #cfcfcf;
+    border: 1px solid gray;
+}
+
+div.page ul.nofold {
+    overflow: visible;
+    height: auto;
+    min-height: 40px;
+}
+
+div.page ul.inlist {
+    margin-left: -80px;
+}
+
+div.page ul li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+div.page ul li a {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    padding: 3px 12px;
+}
+
+div.page ul li a:visited { color: black; }
+
+div.page ul li a:hover {
+    color: white;
+    background: gray;
+    text-decoration: none;
+    box-shadow: 1px 1px 0 0 white;
+}
+
+/*---------- Tag For Block ----------*/
+.tag {
+    min-width: 80px;
+    margin: 0 0 0 -80px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}

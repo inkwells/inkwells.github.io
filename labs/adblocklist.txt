@@ -1,0 +1,15 @@
+[Adblock Plus 2.0]
+! Title: InksList
+! Version: 2015.05.23.3
+! Fork of: http://inkwells.me/labs/inkslist.txt
+! Homepage: http://inkwells.me/
+! ************************************************
+!
+! ---------- lifaner.com ---------- !
+lifaner.com##div#__QQCP_LEFT_Div
+lifaner.com##div#__QQCP_RIGHT_Div
+lifaner.com##div#pop
+lifaner.com##div.header center
+lifaner.com##div.header_top
+lifaner.com##div.header div[style="float:right;"]
+lifaner.com##div#BAIDU_DUP_wrapper_u2014071_0
