@@ -93,25 +93,6 @@ ul {
     background-color: #ffffff;
 }
 
-/*---------- View On GitHub ----------*/
-#viewgithub {
-    float: left;
-    cursor: pointer;
-    width: 70px;
-    height: 18px;
-    padding: 6px 0px;
-    background-color: #cfcfcf;
-    text-align: center;
-    font-weight: bold;
-    border: 1px solid gray;
-}
-
-#viewgithub:hover {
-    color: white;
-    background-color: gray;
-    box-shadow: 1px 1px 0 0 white;
-}
-
 /*---------- Search Button ----------*/
 #search-button {
     clear: left;
